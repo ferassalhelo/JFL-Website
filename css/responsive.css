@@ -738,13 +738,9 @@
     width: 100%;
   }
 
-  .header-style-two .main-menu .navbar-header .navbar-toggler {
-    border-color: #000000;
-  }
 
-  .header-style-two .main-menu .navbar-header .navbar-toggler .icon-bar {
-    background-color: #000000;
-  }
+
+
 
   .main-header.header-style-two .header-upper .logo-box {
     padding-left: 15px;
