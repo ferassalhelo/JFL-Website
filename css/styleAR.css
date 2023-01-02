@@ -1,0 +1,200 @@
+body {
+  text-align: start !important;
+}
+
+.footer-list li a::after {
+  content: "\f100";
+  color: #621738;
+  font-family: "FontAwesome";
+
+  margin-left: 10px;
+}
+
+.footer-list li a:before {
+  all: initial !important;
+}
+
+.main-footer .footer-widget h2 .icon {
+  margin: 0 0 0 10px !important;
+}
+
+body
+  > div.page-wrapper
+  > footer
+  > div.auto-container
+  > div
+  > div
+  > div:nth-child(2)
+  > div
+  > div:nth-child(1)
+  > div
+  > div.email-form
+  > form
+  > div
+  > button {
+  left: 0 !important;
+  right: auto;
+}
+.pull-left {
+  float: right !important;
+}
+
+.pull-right {
+  float: left !important;
+}
+
+.main-menu .navigation > li {
+  float: right;
+  margin-left: 33px;
+  margin-right: 0 !important;
+}
+body
+  > div.page-wrapper
+  > header
+  > div.auto-container
+  > div
+  > div
+  > div
+  > div.pull-right.upper-right
+  > div
+  > div
+  > nav
+  > div.navbar-header {
+  text-align: left !important
+;
+}
+
+#navbarSupportedContent > ul li a {
+  text-align: start !important;
+}
+
+.main-menu .navbar-collapse > ul li.dropdown .dropdown-btn {
+  left: 10px;
+  right: auto;
+}
+
+#formHolder {
+  direction: ltr;
+}
+
+#formHolder > div > div.col-sm-6.form > div.signup.form-peice > form,
+#formHolder > div > div.col-sm-6.form > div.login.form-peice > form {
+  direction: rtl;
+}
+
+.form form .CTA input {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.list-style-one li {
+  padding-left: 0;
+  padding-right: 50px;
+}
+
+.list-style-one li:before {
+  left: auto;
+  right: 0;
+}
+.news-block .inner-box .content-column h3:before {
+  left: auto;
+}
+
+.news-block .inner-box .content-column .post-meta li span,
+.news-block .inner-box .content-column .post-meta li span {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.flaticon-calendar-1:before {
+  position: absolute;
+  right: -10px;
+}
+.news-block .inner-box .image-column .inner-column:before {
+  right: 0;
+  left: 30px;
+}
+
+.news-block .inner-box .image-column .inner-column {
+  padding-right: 15px;
+}
+
+.fa-angle-left:before {
+  content: "\f105";
+}
+
+.fa-angle-right:before {
+  content: "\f104";
+}
+.fleet-block .inner-box .lower-content h3:before {
+  left: auto;
+}
+
+.fleet-block .inner-box .lower-content .fleet-list li span {
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+.fleet-block .inner-box .lower-content {
+  padding-right: 10px;
+  padding-left: 0;
+}
+.ft-product-mesurment-form-input .ft-product-mesurment-form-input-area input,
+.ft-product-mesurment-form-input .ft-product-mesurment-form-input-area select {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.ft-product-mesurment-form-input
+  .ft-product-mesurment-form-input-area
+  .ft-select-option::after {
+  right: auto;
+  left: 20px;
+}
+.track-form-two .form-group .submit-btn {
+  right: auto;
+  left: 0;
+  border-radius: 8px 0px 0px 8px;
+}
+.tracking-info-detail .tracking-box .tracking-location:after {
+  right: -16px;
+}
+.tracking-info-detail .tracking-box .tracking-location:before {
+  right: 0;
+  left: auto;
+}
+
+.tracking-info-detail .tracking-box .tracking-time-box {
+  margin-right: 0;
+  margin-left: 30px;
+}
+.tracking-info-detail .tracking-box .tracking-location {
+  padding-right: 70px;
+  padding-left: 0;
+}
+.tracking-info-detail .tracking-box .tracking-location .dott {
+  right: -3px;
+  left: auto;
+}
+.sidebar .popular-posts .post-info {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.sidebar .popular-posts .post-info:before {
+  left: auto;
+  right: 0;
+}
+.category-list li a span {
+  right: auto;
+  left: 0;
+}
+
+.sidebar .search-box .form-group button {
+  left: 0;
+  right: auto;
+  border-right: 1px solid #cccccc;
+}
+.sidebar .search-box .form-group input[type="text"],
+.sidebar .search-box .form-group input[type="search"] {
+  padding: 10px 20px 10px 50px;
+}

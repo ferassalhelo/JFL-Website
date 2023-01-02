@@ -4969,6 +4969,6 @@ body > div.page-wrapper > section.welcome-section > div > div {
   display: none;
 }
 
-#myTab > li:nth-child(1){
+#myTab > li:nth-child(1) {
   margin: 0 20px;
 }

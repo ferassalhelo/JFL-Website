@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
 
 <head>
 	<meta charset="utf-8">
-	<title>Carga HTML Template | Quote</title>
+	<title>Carga HTML Template | Contact</title>
 	<!-- Stylesheets -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
-	<link rel="shortcut icon" href="images/mainLogo.jpeg" type="image/x-icon">
-
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="./css/auth.css">
+    <link rel="stylesheet" href="css/styleAR.css">
 	<!-- Responsive -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -184,209 +185,107 @@
 			</div>
 			<!--End Sticky Header-->
 		</header>
-		<!--End Main Header -->
-
-		<!--Page Title-->
-		<section class="page-title" style="background-image:url(images/background/12.jpg);">
-			<div class="auto-container">
-				<h2>Quote Request</h2>
-				<div class="separater"></div>
-			</div>
-		</section>
-
-		<!--Breadcrumb-->
-		<div class="breadcrumb-outer">
-			<div class="auto-container">
-				<ul class="bread-crumb text-center">
-					<li><a href="index.html">Home</a> <span>/</span></li>
-					<li>Request a Quote</li>
-				</ul>
-			</div>
-		</div>
-		<!--End Page Title-->
 
 
+		<div class="container">
+			<section id="formHolder">
 
-		<!-- Price Section -->
-		<section id="ft-product-mesurment" class="ft-product-mesurment-section pb-5">
-			<div class="container">
+				<div class="row">
 
-				<div class="ft-product-mesurment-content position-relative">
+					<!-- Brand Box -->
+					<div class="col-sm-6 brand">
+						<a href="./index.html" class="logo">JFL <span>.</span></a>
 
-					<div class="row justify-content-center">
-						<div class="col-lg-8">
-							<div class="ft-product-mesurment-form justify-content-center">
-								<div class="ft-product-mesurment-tab-btn">
-									<ul class="nav nav-tabs" id="myTab" role="tablist">
-										<li class="nav-item" role="presentation">
-											<button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-												data-bs-target="#home" type="button" role="tab" aria-controls="home"
-												aria-selected="true">Request A Quote</button>
-										</li>
-										<li class="nav-item" role="presentation">
-											<button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-												data-bs-target="#profile" type="button" role="tab"
-												aria-controls="profile" aria-selected="false">Track & Trace</button>
-										</li>
-									</ul>
-								</div>
-								<div class="tab-content" id="myTabContent">
-									<div class="tab-pane fade show active" id="home" role="tabpanel"
-										aria-labelledby="home-tab">
-										<div class="ft-product-mesurment-form-input">
-											<form action="#">
-												<div class="ft-product-mesurment-form-input-area">
-													<label class="ft-pm-title">Personal Data</label>
-													<div class="row">
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="First Name">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="Last Name">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="email" placeholder="Your Email">
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="ft-product-mesurment-form-input-area">
-													<label class="ft-pm-title">Shipment Date</label>
-													<div class="row">
-														<div class="col-lg-4">
-															<div class="ft-pm-input ft-select-option position-relative">
-																<select name="#">
-																	<option value="#">Shipment Type</option>
-																	<option value="#">By Air</option>
-																	<option value="#">By Ship</option>
-																	<option value="#">By Road</option>
-																</select>
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="City Type Departure">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="Text" placeholder="Delivery City">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input ft-select-option position-relative">
-																<select name="#">
-																	<option value="#">Incoterms</option>
-																	<option value="#">By Air</option>
-																	<option value="#">By Ship</option>
-																	<option value="#">By Road</option>
-																</select>
-															</div>
-														</div>
-														<div class="col-lg-2">
-															<div class="ft-pm-input">
-																<input type="Text" placeholder="Weight">
-															</div>
-														</div>
-														<div class="col-lg-2">
-															<div class="ft-pm-input">
-																<input type="Text" placeholder="Height">
-															</div>
-														</div>
-														<div class="col-lg-2">
-															<div class="ft-pm-input">
-																<input type="Text" placeholder="Width">
-															</div>
-														</div>
-														<div class="col-lg-2">
-															<div class="ft-pm-input">
-																<input type="Text" placeholder="Length">
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="ft-product-mesurment-checkbox">
-													<label>
-														<input class="condition" name="#" type="radio" value="#"
-															checked="">
-														<span class="checkmark-circle"></span>
-														<span class="slug">Incoterms</span>
-													</label>
-													<label>
-														<input class="condition" name="#" type="radio" value="#">
-														<span class="checkmark-circle"></span>
-														<span class="slug">Express Delivery</span>
-													</label>
-													<label>
-														<input class="condition" name="#" type="radio" value="#">
-														<span class="checkmark-circle"></span>
-														<span class="slug">Insurance</span>
-													</label>
-													<label>
-														<input class="condition" name="#" type="radio" value="#">
-														<span class="checkmark-circle"></span>
-														<span class="slug">Packaging</span>
-													</label>
-												</div>
-												<button>Request For A Quote</button>
-											</form>
-										</div>
-									</div>
-									<div class="tab-pane fade" id="profile" role="tabpanel"
-										aria-labelledby="profile-tab">
-										<div class="ft-product-mesurment-form-input">
-											<form action="#">
-												<div class="ft-product-mesurment-form-input-area">
-													<label class="ft-pm-title">Personal Data</label>
-													<div class="row">
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="First Name">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="Last Name">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="email" placeholder="Your Email">
-															</div>
-														</div>
-														<div class="col-lg-12">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="Your Tracking Id">
-															</div>
-														</div>
-													</div>
-												</div>
-												<button>Track & Trace</button>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
+						<div class="heading">
+							<h2>JFL</h2>
+							<p>Your Right Choice</p>
 						</div>
-						<img src="images/pm-bg.png" class="d-none d-lg-block col-lg-4" style="object-fit: contain;"
-							alt="">
 
+						<div class="success-msg">
+							<p>Great! You are one of our members now</p>
+						</div>
+					</div>
+
+
+					<!-- Form Box -->
+					<div class="col-sm-6 form">
+
+						<!-- Login Form -->
+						<div class="login form-peice switched">
+							<form class="login-form" action="#" method="post">
+								<div class="form-group">
+									<label for="loginemail">Email Adderss</label>
+									<input type="email" name="loginemail" id="loginemail" required>
+								</div>
+
+								<div class="form-group">
+									<label for="loginPassword">Password</label>
+									<input type="password" name="loginPassword" id="loginPassword" required>
+								</div>
+
+								<div class="CTA">
+									<input type="submit" value="Login">
+									<a href="#" class="switch">I'm New</a>
+								</div>
+							</form>
+						</div><!-- End Login Form -->
+
+
+						<!-- Signup Form -->
+						<div class="signup form-peice">
+							<form class="signup-form" action="#" method="post">
+
+								<div class="form-group">
+									<label for="name">Full Name</label>
+									<input type="text" name="username" id="name" class="name">
+									<span class="error"></span>
+								</div>
+
+								<div class="form-group">
+									<label for="email">Email Adderss</label>
+									<input type="email" name="emailAdress" id="email" class="email">
+									<span class="error"></span>
+								</div>
+
+								<div class="form-group">
+									<label for="phone">Phone Number - <small>Optional</small></label>
+									<input type="text" name="phone" id="phone">
+								</div>
+
+								<div class="form-group">
+									<label for="password">Password</label>
+									<input type="password" name="password" id="password" class="pass">
+									<span class="error"></span>
+								</div>
+
+								<div class="form-group">
+									<label for="passwordCon">Confirm Password</label>
+									<input type="password" name="passwordCon" id="passwordCon" class="passConfirm">
+									<span class="error"></span>
+								</div>
+
+								<div class="CTA">
+									<input type="submit" value="Signup Now" id="submit">
+									<a href="#" class="switch">I have an account</a>
+								</div>
+							</form>
+						</div><!-- End Signup Form -->
 					</div>
 				</div>
-			</div>
-		</section>
-		<!-- End Price Section -->
+
+			</section>
+
+
+
+
+		</div>
+
 
 		<!--Main Footer-->
 		<footer class="main-footer style-two" style="background-image: url(images/background/7.png)">
 			<div class="auto-container">
 				<!--Widgets Section-->
-				<div class="widgets-section">
+				<div class="widgets-section text-left">
 					<div class="row clearfix">
 						<!--Column-->
 						<div class="big-column col-lg-6 col-md-12 col-sm-12">
@@ -565,8 +464,9 @@
 	<script src="js/owl.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/jquery-ui.js"></script>
-	<script src="js/bootstrap2.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/auth.js"></script>
+
 </body>
 
 </html>

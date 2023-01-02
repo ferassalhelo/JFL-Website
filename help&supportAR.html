@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
 
 <head>
 	<meta charset="utf-8">
@@ -9,7 +9,7 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link rel="shortcut icon" href="images/mainLogo.jpeg" type="image/x-icon">
-
+<link rel="stylesheet" href="css/styleAR.css">
 	<!-- Responsive -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -187,200 +187,110 @@
 		<!--End Main Header -->
 
 		<!--Page Title-->
-		<section class="page-title" style="background-image:url(images/background/12.jpg);">
+		<section class="welcome-section">
 			<div class="auto-container">
-				<h2>Quote Request</h2>
-				<div class="separater"></div>
-			</div>
-		</section>
-
-		<!--Breadcrumb-->
-		<div class="breadcrumb-outer">
-			<div class="auto-container">
-				<ul class="bread-crumb text-center">
-					<li><a href="index.html">Home</a> <span>/</span></li>
-					<li>Request a Quote</li>
-				</ul>
-			</div>
-		</div>
-		<!--End Page Title-->
 
 
-
-		<!-- Price Section -->
-		<section id="ft-product-mesurment" class="ft-product-mesurment-section pb-5">
-			<div class="container">
-
-				<div class="ft-product-mesurment-content position-relative">
-
-					<div class="row justify-content-center">
-						<div class="col-lg-8">
-							<div class="ft-product-mesurment-form justify-content-center">
-								<div class="ft-product-mesurment-tab-btn">
-									<ul class="nav nav-tabs" id="myTab" role="tablist">
-										<li class="nav-item" role="presentation">
-											<button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-												data-bs-target="#home" type="button" role="tab" aria-controls="home"
-												aria-selected="true">Request A Quote</button>
-										</li>
-										<li class="nav-item" role="presentation">
-											<button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-												data-bs-target="#profile" type="button" role="tab"
-												aria-controls="profile" aria-selected="false">Track & Trace</button>
-										</li>
-									</ul>
-								</div>
-								<div class="tab-content" id="myTabContent">
-									<div class="tab-pane fade show active" id="home" role="tabpanel"
-										aria-labelledby="home-tab">
-										<div class="ft-product-mesurment-form-input">
-											<form action="#">
-												<div class="ft-product-mesurment-form-input-area">
-													<label class="ft-pm-title">Personal Data</label>
-													<div class="row">
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="First Name">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="Last Name">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="email" placeholder="Your Email">
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="ft-product-mesurment-form-input-area">
-													<label class="ft-pm-title">Shipment Date</label>
-													<div class="row">
-														<div class="col-lg-4">
-															<div class="ft-pm-input ft-select-option position-relative">
-																<select name="#">
-																	<option value="#">Shipment Type</option>
-																	<option value="#">By Air</option>
-																	<option value="#">By Ship</option>
-																	<option value="#">By Road</option>
-																</select>
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="City Type Departure">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="Text" placeholder="Delivery City">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input ft-select-option position-relative">
-																<select name="#">
-																	<option value="#">Incoterms</option>
-																	<option value="#">By Air</option>
-																	<option value="#">By Ship</option>
-																	<option value="#">By Road</option>
-																</select>
-															</div>
-														</div>
-														<div class="col-lg-2">
-															<div class="ft-pm-input">
-																<input type="Text" placeholder="Weight">
-															</div>
-														</div>
-														<div class="col-lg-2">
-															<div class="ft-pm-input">
-																<input type="Text" placeholder="Height">
-															</div>
-														</div>
-														<div class="col-lg-2">
-															<div class="ft-pm-input">
-																<input type="Text" placeholder="Width">
-															</div>
-														</div>
-														<div class="col-lg-2">
-															<div class="ft-pm-input">
-																<input type="Text" placeholder="Length">
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="ft-product-mesurment-checkbox">
-													<label>
-														<input class="condition" name="#" type="radio" value="#"
-															checked="">
-														<span class="checkmark-circle"></span>
-														<span class="slug">Incoterms</span>
-													</label>
-													<label>
-														<input class="condition" name="#" type="radio" value="#">
-														<span class="checkmark-circle"></span>
-														<span class="slug">Express Delivery</span>
-													</label>
-													<label>
-														<input class="condition" name="#" type="radio" value="#">
-														<span class="checkmark-circle"></span>
-														<span class="slug">Insurance</span>
-													</label>
-													<label>
-														<input class="condition" name="#" type="radio" value="#">
-														<span class="checkmark-circle"></span>
-														<span class="slug">Packaging</span>
-													</label>
-												</div>
-												<button>Request For A Quote</button>
-											</form>
-										</div>
-									</div>
-									<div class="tab-pane fade" id="profile" role="tabpanel"
-										aria-labelledby="profile-tab">
-										<div class="ft-product-mesurment-form-input">
-											<form action="#">
-												<div class="ft-product-mesurment-form-input-area">
-													<label class="ft-pm-title">Personal Data</label>
-													<div class="row">
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="First Name">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="Last Name">
-															</div>
-														</div>
-														<div class="col-lg-4">
-															<div class="ft-pm-input">
-																<input type="email" placeholder="Your Email">
-															</div>
-														</div>
-														<div class="col-lg-12">
-															<div class="ft-pm-input">
-																<input type="text" placeholder="Your Tracking Id">
-															</div>
-														</div>
-													</div>
-												</div>
-												<button>Track & Trace</button>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<img src="images/pm-bg.png" class="d-none d-lg-block col-lg-4" style="object-fit: contain;"
-							alt="">
-
+				<!-- Content Column -->
+				<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="sec-title-two sec-title">
+						<h2>Customer<span> Support</span></h2>
+						<div class="separater"></div>
 					</div>
+					<h4 class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat iure labore est ex
+						numquam doloribus nesciunt nemo a? Laudantium culpa exercitationem harum corrupti commodi. Hic
+						est quas enim repudiandae temporibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Animi hic debitis ex laborum
+						exercitationem inventore. Alias maiores labore vel aliquid, totam nesciunt tempore odio natus
+						quas deserunt doloribus temporibus cumque! Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit. Placeat numquam nihil eum nobis alias inventore, accusamus soluta exercitationem sint
+						autem necessitatibus expedita, voluptate maiores unde nostrum tempora, sunt obcaecati quas!</h4>
 				</div>
+
+				<!-- Image Column -->
+
+
+
 			</div>
 		</section>
-		<!-- End Price Section -->
+		<section class="welcome-section">
+			<div class="auto-container">
+
+
+				<!-- Content Column -->
+				<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="sec-title-two sec-title">
+						<h2>Customs <span>Clearance</span></h2>
+						<div class="separater"></div>
+					</div>
+					<h4 class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat iure labore est ex
+						numquam doloribus nesciunt nemo a? Laudantium culpa exercitationem harum corrupti commodi. Hic
+						est quas enim repudiandae temporibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Animi hic debitis ex laborum
+						exercitationem inventore. Alias maiores labore vel aliquid, totam nesciunt tempore odio natus
+						quas deserunt doloribus temporibus cumque! Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit. Placeat numquam nihil eum nobis alias inventore, accusamus soluta exercitationem sint
+						autem necessitatibus expedita, voluptate maiores unde nostrum tempora, sunt obcaecati quas!</h4>
+				</div>
+
+				<!-- Image Column -->
+
+
+
+			</div>
+		</section>
+		<section class="welcome-section">
+			<div class="auto-container">
+
+
+				<!-- Content Column -->
+				<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="sec-title-two sec-title">
+						<h2>Common <span>Questions </span></h2>
+						<div class="separater"></div>
+					</div>
+					<h4 class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat iure labore est ex
+						numquam doloribus nesciunt nemo a? Laudantium culpa exercitationem harum corrupti commodi. Hic
+						est quas enim repudiandae temporibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Animi hic debitis ex laborum
+						exercitationem inventore. Alias maiores labore vel aliquid, totam nesciunt tempore odio natus
+						quas deserunt doloribus temporibus cumque! Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit. Placeat numquam nihil eum nobis alias inventore, accusamus soluta exercitationem sint
+						autem necessitatibus expedita, voluptate maiores unde nostrum tempora, sunt obcaecati quas!</h4>
+				</div>
+
+				<!-- Image Column -->
+
+
+
+			</div>
+		</section>
+		<section class="welcome-section">
+			<div class="auto-container">
+
+
+				<!-- Content Column -->
+				<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="sec-title-two sec-title">
+						<h2>Help <span>System</span></h2>
+						<div class="separater"></div>
+					</div>
+					<h4 class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat iure labore est ex
+						numquam doloribus nesciunt nemo a? Laudantium culpa exercitationem harum corrupti commodi. Hic
+						est quas enim repudiandae temporibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Animi hic debitis ex laborum
+						exercitationem inventore. Alias maiores labore vel aliquid, totam nesciunt tempore odio natus
+						quas deserunt doloribus temporibus cumque! Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit. Placeat numquam nihil eum nobis alias inventore, accusamus soluta exercitationem sint
+						autem necessitatibus expedita, voluptate maiores unde nostrum tempora, sunt obcaecati quas!</h4>
+				</div>
+
+				<!-- Image Column -->
+
+
+
+			</div>
+		</section>
 
 		<!--Main Footer-->
 		<footer class="main-footer style-two" style="background-image: url(images/background/7.png)">
@@ -565,8 +475,8 @@
 	<script src="js/owl.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/jquery-ui.js"></script>
-	<script src="js/bootstrap2.js"></script>
 	<script src="js/script.js"></script>
+
 </body>
 
 </html>
