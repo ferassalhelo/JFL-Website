@@ -198,3 +198,42 @@ body
 .sidebar .search-box .form-group input[type="search"] {
   padding: 10px 20px 10px 50px;
 }
+.feature-block .inner-box .icon-box {
+  left: auto;
+  right: 0;
+}
+.feature-block .inner-box {
+  padding-right: 175px;
+  padding-left: 0;
+}
+@media only screen and (max-width: 599px) {
+  .feature-block .inner-box {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+body > div.page-wrapper > section.counter-section {
+  direction: ltr;
+}
+
+body
+  > div.page-wrapper
+  > section.services-section-two
+  > div
+  > div.row.clearfix
+  > div
+  > div
+  > div
+  > h4 {
+  right: 0;
+  left: auto;
+}
+
+.services-block-three .inner-box .image h4:after {
+  left: -20px;
+  top: 0px;
+  border-top: 42px solid #621738;
+  border-left: 20px solid transparent;
+  z-index: -1;
+}
