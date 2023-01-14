@@ -49,7 +49,7 @@
   }
   .header-style-two .main-menu .navigation > li {
     margin-right: 3px;
-    margin-left: 15px;
+    margin-left: 13px;
   }
 }
 
@@ -342,7 +342,7 @@
   }
 
   .main-menu .navbar-collapse {
-    max-height: 350px;
+    max-height: 415px;
     max-width: none;
     overflow: auto;
     float: none !important;

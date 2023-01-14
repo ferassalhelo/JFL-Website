@@ -1756,8 +1756,7 @@ header .sticky-header .logo img {
   border-color: #f5399b;
 }
 
-.banner-form .theme-btn {
-}
+
 
 /*** 
 
@@ -4988,8 +4987,8 @@ body > div.page-wrapper > section.welcome-section > div > div {
   border-radius: 50%;
   border: 1px solid white;
   padding: 5px;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   display: block;
   padding: 0;
   line-height: 25px;
